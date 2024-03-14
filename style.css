@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Big Shoulder";
+    src: url("./Fonts/BigShouldersDisplay-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Legend Deca";
+    src: url("./Fonts/LexendDeca-Regular.ttf");
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10.7rem;
+}
+
+header {
+    font-family: "Big Shoulder";
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+    color: hsl(0, 30%, 69%);
+
+}
+
+main {
+    width: 57.5rem;
+    height: 31.25rem;
+    display: flex;
+}
+
+main section {
+    width: 20rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2.75rem 3.25rem 0rem 2.94rem;
+    text-align: left;
+}
+
+section img {
+    width: 3.9rem;
+    height: 2.5rem;
+}
+
+section h2 {
+    padding: 2rem 0 2rem 0rem;
+    font-family: "Big Shoulder";
+    font-size: 2.1rem;
+    color: hsl(0, 0%, 95%);
+    font-weight: 500;
+    opacity: 80%;
+}
+
+section p {
+    font-family: "Legend Deca";
+    font-size:0.9rem;
+    opacity: 70%;
+    line-height: 1.5rem;
+    color: hsl(0, 0%, 95%);
+}
+
+section button {
+    width: 8rem;
+    height: 2.8rem;
+    margin: 4.5rem 0 0 0;
+    background-color: hsla(0, 0%, 100%, 0.849);
+    border-radius: 1.9rem;
+    border: none;
+    cursor: pointer;
+    font-family: "Legend Deca";
+}
+
+section button:hover {
+    transition: 0.2s ease-in;
+    border: solid 2px white;
+    color: white;
+}
+
+.sedan-section {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 1rem 0 0 1rem;
+    padding-right: 4rem;
+}
+
+.sedan-section button {
+    color: hsl(31, 77%, 52%);
+    transition: 0.2s ease-out;
+}
+
+.sedan-section button:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs-section {
+    background-color: hsl(184, 100%, 22%);
+    padding-right: 4rem;
+}
+
+.suvs-section button {
+    color: hsl(184, 100%, 22%);
+    transition: 0.2s ease-out;
+}
+
+.suvs-section button:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-section {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 1rem 1rem 0;
+}
+
+.luxury-section button {
+    color: hsl(179, 100%, 13%);
+    transition: 0.2s ease-out;
+}
+
+.luxury-section button:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+footer {
+    font-family: "Legend Deca";
+    font-size: 10px;
+}
+
+/* Do responsive for tablet mode */
+
+@media screen and (max-width: 950px) {
+    body {
+        padding-top: 5rem;
+    }
+
+    main {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section button {
+        margin-bottom: 1rem;
+    }
+
+    .sedan-section {
+        border-radius: 1rem 1rem 0 0rem;
+    }
+    
+    .luxury-section {
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+}
