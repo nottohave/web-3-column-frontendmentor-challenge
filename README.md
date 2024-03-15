@@ -1,5 +1,4 @@
-# web-3-column-frontendmentor-challenge rebuilt
-# Front Mentor 3-column preview card component challenge page- [3-column](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
+# Front Mentor 3-column preview card component challenge [page](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
 
 ### Description
 - A 3-column preview card component for newbie challenge. They have three types of vehicles with description and a button for each.
@@ -14,3 +13,4 @@
 - frontendmentor.io
 - Kevin-Powell - Youtube
 - Dev Ed - Youtube
+
