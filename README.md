@@ -3,6 +3,8 @@
 ### Description
 - A 3-column preview card component for newbie challenge. They have three types of vehicles with description and a button for each.
 
+- Live [Site](https://nottohave.github.io/web-3-column-frontendmentor-challenge/)
+
 ### Tools:
 - Semantic HTML5 markup
 - CSS custom properties
